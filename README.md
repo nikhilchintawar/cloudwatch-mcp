@@ -73,7 +73,7 @@ Then add to your config:
   "mcpServers": {
     "cloudwatch": {
       "command": "node",
-      "args": ["/absolute/path/to/cloudwatch-mcp/dist/index.js"],
+      "args": ["/absolute/path/to/cloudwatch-mcp/build/index.js"],
       "env": {
         "AWS_REGION": "eu-west-2",
         "AWS_PROFILE": "your-profile",
@@ -240,7 +240,7 @@ npm run build
 
 # Test with MCP Inspector
 AWS_REGION=eu-west-2 AWS_PROFILE=your-profile \
-  npx @modelcontextprotocol/inspector node dist/index.js
+  npx @modelcontextprotocol/inspector node build/index.js
 ```
 
 ## License

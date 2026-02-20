@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build output (dist only, build is committed for GitHub installs)
-dist/
+# Build output is NOT ignored - it's committed for GitHub npx installs
+# dist/
 
 # Environment variables
 .env
